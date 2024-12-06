@@ -1,0 +1,15 @@
+/Users/macbook/Desktop/pubg/bin/Debug/net7.0/pubg
+/Users/macbook/Desktop/pubg/bin/Debug/net7.0/pubg.deps.json
+/Users/macbook/Desktop/pubg/bin/Debug/net7.0/pubg.runtimeconfig.json
+/Users/macbook/Desktop/pubg/bin/Debug/net7.0/pubg.dll
+/Users/macbook/Desktop/pubg/bin/Debug/net7.0/pubg.pdb
+/Users/macbook/Desktop/pubg/obj/Debug/net7.0/pubg.csproj.AssemblyReference.cache
+/Users/macbook/Desktop/pubg/obj/Debug/net7.0/pubg.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Desktop/pubg/obj/Debug/net7.0/pubg.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/pubg/obj/Debug/net7.0/pubg.AssemblyInfo.cs
+/Users/macbook/Desktop/pubg/obj/Debug/net7.0/pubg.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/pubg/obj/Debug/net7.0/pubg.dll
+/Users/macbook/Desktop/pubg/obj/Debug/net7.0/refint/pubg.dll
+/Users/macbook/Desktop/pubg/obj/Debug/net7.0/pubg.pdb
+/Users/macbook/Desktop/pubg/obj/Debug/net7.0/pubg.genruntimeconfig.cache
+/Users/macbook/Desktop/pubg/obj/Debug/net7.0/ref/pubg.dll
