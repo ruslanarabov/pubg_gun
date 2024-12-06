@@ -62,6 +62,7 @@ while (weapon == null)
         Console.WriteLine("4 - Reload");
         Console.WriteLine("5 - Change Fire Mode");
         Console.WriteLine("6 - Exit");
+        Console.WriteLine("7 - Edit");
         Console.Write("Choose an option: ");
         int choice = int.Parse(Console.ReadLine());
 
@@ -86,9 +87,51 @@ while (weapon == null)
             case 6:
             Console.WriteLine("Exiting the program...");
             return;
+            case 7:
+            Console.WriteLine("Edit Options:");
+            Console.WriteLine("8 - Change Bullet Capacity");
+            Console.WriteLine("9 - Change Current Bullet Count");
+            Console.Write("Choose an edit option: ");
+            int editChoice = int.Parse(Console.ReadLine());
+
+            if (editChoice == 8)
+            {
+                Console.Write("Enter new bullet capacity: ");
+                int newCapacity = int.Parse(Console.ReadLine());
+
+                if (newCapacity > 0)
+                {
+                    weapon.BulletCapacity = newCapacity;
+                    Console.WriteLine($"Bullet capacity updated to {newCapacity}.");
+                }
+                else
+                {
+                    Console.WriteLine("Error: Bullet capacity must be greater than 0.");
+                }
+            }
+            else if (editChoice == 9)
+            {
+                System.Console.WriteLine("Enter new current bullet count: ");
+                int newBulletCount = int.Parse(Console.ReadLine());
+
+                if (newBulletCount >= 0 && newBulletCount <= weapon.BulletCapacity )
+                {
+                    weapon.CurrentBulletCount = newBulletCount;
+                    Console.WriteLine($"Current bullet count updated to {newBulletCount}.");
+                }
+                else
+                {
+                    Console.WriteLine($"Error: Bullet count must be between 0 and {weapon.BulletCapacity}.");
+                }
+            }
+            else 
+            {
+                System.Console.WriteLine("invalid edit option.");
+            }
+            break;
             default:
             Console.WriteLine("Invalid option. Please try again.");
-            break;
+            break;            
         }
     }
 }
